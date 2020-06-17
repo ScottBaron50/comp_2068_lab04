@@ -1,0 +1,28 @@
+<%- include ('../partials/header') %>
+<div class="container" style="border: 2px dotted black; margin-top: 10%">
+  <h1 style="text-align:center; text-decoration:underline">Inventory Item</h1>
+  <div class="form-group">
+    <label for="product">Product:</label>
+    <p class="form-control" id="product"><%- product.name %></p>
+  </div>
+  <div >
+    <div class="form-group">
+      <label for="descrip">Description:</label>
+      <textarea rows="10" class="form-control" id="descrip" style="resize:none;"><%- product.description %></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="price">Price:</label>
+    <p class="form-control" id="price">
+      <%- product.price %>
+    </p>
+  </div>
+</div>
+<div class="container" style="text-align:center; margin-top: 5%">
+  <div style="display:inline-block">
+   <div class="tenor-gif-embed" data-postid="12721907" data-share-method="host" data-width="300" data-aspect-ratio="2.360189573459716"><a href="https://tenor.com/view/good-job-leonardo-dicaprio-congrats-fireworks-the-great-gatsby-gif-12721907">Good Job Leonardo Dicaprio GIF</a> from <a href="https://tenor.com/search/goodjob-gifs">Goodjob GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js" style="text-align: center;"></script>
+  </div>
+  <iframe src="https://giphy.com/embed/LVIbmaUwpRJ1C" width="480" height="341" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/thumbs-up-sarcastic-LVIbmaUwpRJ1C">via GIPHY</a></p>
+</div>
+
+<%- include ('../partials/footer') %>
